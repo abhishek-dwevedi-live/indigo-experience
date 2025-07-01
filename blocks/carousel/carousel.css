@@ -1,5 +1,7 @@
 .carousel .carousel-slides-container {
   position: relative;
+  border: 20px solid white;
+  border-radius: 20px;
 }
 
 .carousel .carousel-slides,
@@ -67,7 +69,6 @@
   justify-content: center;
   gap: 6px 12px;
   padding: 12px;
-  background-color: var(--light-color);
   line-height: 0;
 }
 

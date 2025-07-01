@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --background-color: white;
+  --background-color: rgb(255, 255, 255);
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
@@ -78,6 +78,8 @@ body {
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
   line-height: 1.6;
+  background: linear-gradient(rgba(175, 228, 255, 0.5) 80%, rgba(255, 255, 255, 0.5));
+
 }
 
 body.appear {
