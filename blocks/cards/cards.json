@@ -1,0 +1,40 @@
+{
+    "definitions": [
+      {
+        "id": "cards",
+        "title": "Cards",
+        "model": "cards-model"
+      }
+    ],
+    "models": [
+      {
+        "id": "cards-model",
+        "fields": [
+          {
+            "component": "group-list",
+            "name": "items",
+            "label": "Cards",
+            "fields": [
+              {
+                "component": "image",
+                "name": "image",
+                "label": "Image"
+              },
+              {
+                "component": "text",
+                "name": "title",
+                "label": "Title"
+              },
+              {
+                "component": "text",
+                "name": "description",
+                "label": "Description"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "filters": []
+  }
+  
